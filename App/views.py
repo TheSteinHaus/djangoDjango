@@ -26,3 +26,7 @@ def home(request):
 
 def about(request):
     return render(request, 'app/about.html', {'title': 'About'})
+
+
+def map(request):
+    return render(request, 'app/map.html', {'title': 'Map'})
