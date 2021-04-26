@@ -6,3 +6,4 @@ urlpatterns = [
     path('about', views.about, name="blog-about"),
     path('map', views.map, name="blog-map")
 ]
+
